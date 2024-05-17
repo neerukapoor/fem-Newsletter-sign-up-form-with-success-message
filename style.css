@@ -1,0 +1,39 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+*,
+*::after,
+*::before {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    display: block;
+}
+
+.attribution { 
+    font-size: 11px; text-align: center; 
+}
+
+.attribution a { 
+    color: hsl(228, 45%, 44%); 
+}
+
+body {
+    background-color: hsl(235, 18%, 26%);
+}
+
+
+.btn {
+    background-color: hsl(234, 29%, 20%);
+    color: white;
+}
+
+.dismiss {
+    background-color: hsl(234, 29%, 20%);
+    color: white;
+}
+
+h1 {
+    color: hsl(235, 18%, 26%);
+}
