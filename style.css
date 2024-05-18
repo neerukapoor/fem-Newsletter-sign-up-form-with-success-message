@@ -37,3 +37,15 @@ body {
 h1 {
     color: hsl(235, 18%, 26%);
 }
+
+.invalid {
+    color: red;
+}
+.valid {
+    color: green;
+}
+
+.input-invalid {
+    border-color: red;
+    background-color: #ffe6e6;
+}

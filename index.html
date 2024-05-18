@@ -38,10 +38,10 @@
             </div>
           </ul>
         
-          <h2 class="font-bold text-[0.75rem] mb-2 flex justify-between">Email address <span class="invalid"></span> </h2>
-          <input class="p-3 border-2 w-[100%] rounded-lg mb-4" type="text" placeholder="email@company.com">
+          <h2 class="font-bold text-[0.75rem] mb-2 flex justify-between ">Email address <span class="invalid"></span> </h2>
+          <input id="email-input" class="p-3 border-2 w-[100%] rounded-lg mb-4" type="text" placeholder="email@company.com">
           
-          <button class="btn w-[100%] p-4 rounded-lg">Subscribe to monthly newsletter</button>  
+          <button id="subscribe-button" class="btn w-[100%] p-4 rounded-lg">Subscribe to monthly newsletter</button>  
         </div>  
       </div>
     
@@ -54,7 +54,7 @@
       <img class="w-[2.5rem] mb-[1rem]" src="/assets/images/icon-success.svg">
       <h1 class="font-bold text-4xl mb-3">Thanks for subscribing!</h1>
     
-      <p class="text-[10px] mb-[1.5rem]">A confirmation email has been sent to <span class="font-bold inline">ash@loremcompany.com.</span> 
+      <p class="text-[10px] mb-[1.5rem]">A confirmation email has been sent to <span class="email-address font-bold inline"></span> 
         Please open it and click the button inside to confirm your subscription.</p>
     
       <button class="dismiss py-[0.7rem] px-[0.7rem] w-[100%] rounded-lg text-[9px] font-bold">Dismiss message</button>
